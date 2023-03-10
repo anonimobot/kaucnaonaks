@@ -1,0 +1,49 @@
+body {
+
+}
+
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px red; 
+}
+
+
+.center {
+    text-align: center;
+    align-items: center;
+    background position: center center;
+}
+
+.vermelho {
+  color: red;
+}
+.butão {
+  background: black;
+  color: red;
+  font-size: 10px;
+  padding:  5px 5px;
+  border-radius: 5px; 
+  box-shadow: 0 0 10px red; 
+}
+
+      .neon-button {
+        background-color: black;
+        color: red;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 10px; 
+        box-shadow: 0 0 10px red; 
+      }
+
+      .neon-button:hover { 
+        background-color: black; 
+        color: red; 
+      }
+      
+    .botão::hover {
+      background-color: black; 
+        color: red; 
+    }

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Grenze+Gotisch:wght@900&family=Jolly+Lodger&family=New+Rocker&display=swap');
+
+.imagem {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.imagem2 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  
+}
+
+.center2 {
+  text-align: center;
+  align-items: center;
+  color: red;
+}
+
+.blink {
+font-family:'New Rocker',cursive;
+text-align: center;
+-webkit-animation-name: farhan;
+-webkit-animation-duration: 2s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+
+-moz-animation-name: farhan;
+-moz-animation-duration: 1s;
+-moz-animation-timing-function: linear;
+-moz-animation-iteration-count: infinite;
+
+ animation-name: farhan;
+ animation-duration: 1s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+}
+
+@-moz-keyframes farhan {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@-webkit-keyframes farhan {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+@keyframes farhan {  
+ 0% { opacity: 1.0; }
+ 50% { opacity: 0.0; }
+ 100% { opacity: 1.0; }
+ }
+
+ .two {
+ color: red;
+ }
+ .one {
+ color: white;
+ }
